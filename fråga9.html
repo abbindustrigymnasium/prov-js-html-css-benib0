@@ -6,10 +6,18 @@
 </head>
 
 <body>
-    <!-- Här ska din HTML kod vara -->
+    <input id="adress" type="text">
+    <button onclick="showImage()">Tryck här</button>
+    <br>
+    <img src="" alt="" id="bild">
 
     <script>
-        // Här ska din JavaScript kod vara
+        
+        function showImage(){
+           let bildTagg = document.getElementById("bild")
+           let adress = document.getElementById("adress").value;
+           bildTagg.src = adress;
+        }
 
 
     </script>

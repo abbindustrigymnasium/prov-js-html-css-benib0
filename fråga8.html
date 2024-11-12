@@ -7,10 +7,19 @@
 </head>
 
 <body>
-    <!-- Här ska din HTML kod vara -->
+    
 
     <script>
-        // Här ska din JavaScript kod vara
+        let numbers = [12, 25, 37, 43, 59, 61];
+
+        function filterEvenNumbers(){
+           numbers = numbers.filter((number) => number % 2 == 0)
+        }
+        filterEvenNumbers();
+        
+        console.log(numbers);
+
+        
 
 
     </script>
